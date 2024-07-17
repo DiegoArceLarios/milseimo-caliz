@@ -1,5 +1,5 @@
 var buttom = document.getElementById('box')
-buttom.addEventListener('touchstart', ()=>{
+buttom.addEventListener('touchend', ()=>{
     var color = document.getElementById("box").style.backgroundColor
     if(color === 'azure'){
         document.getElementById("box").style.backgroundColor = 'blue'
