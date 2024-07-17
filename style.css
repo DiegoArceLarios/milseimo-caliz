@@ -1,0 +1,11 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#container > div {
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+}
